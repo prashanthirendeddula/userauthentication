@@ -1,0 +1,4 @@
+const jwt=require('jsonwebtoken')
+//const token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTcxNzE2NTVlMGJhYzExYWNkMTZmMWMiLCJ1c2VybmFtZSI6InVzZXI4IiwiY3JlYXRlZEF0IjoxNTg0NTQ2NzQ1MjQ3LCJpYXQiOjE1ODQ1NDY3NDV9.ljFyvwYM6l_5f9JwtKi2uy_ADhhvnTgXOsCOsaWRST8'
+const token='123'
+console.log(jwt.verify(token,'jwt@123'))
